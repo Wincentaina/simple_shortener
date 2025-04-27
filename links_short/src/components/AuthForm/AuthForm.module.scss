@@ -1,0 +1,42 @@
+.form_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background: dodgerblue;
+    height: 100%;
+    width: 100%;
+
+    .title {
+        color: aliceblue;
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+
+    .auth_form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+
+        .inp_field {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 5px;
+        }
+
+        .login_btn {
+            padding: 10px 60px;
+            margin: 10px;
+            border: 1px solid dodgerblue;
+            font-size: 20px;
+
+            &:hover {
+                background: dodgerblue;
+                border: solid 1px aliceblue ;
+                color: aliceblue;
+                cursor: pointer;
+            }
+        }
+    }
+}

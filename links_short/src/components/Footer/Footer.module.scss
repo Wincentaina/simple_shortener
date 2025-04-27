@@ -1,0 +1,29 @@
+.footer_container {
+  $list_elem_margin: 30px;
+
+  display: flex;
+  background: dodgerblue;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: aliceblue;
+  font-size: 22px;
+  justify-content: space-between;
+
+  .link {
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: $list_elem_margin;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+
+  .link_on_networks {
+    margin-left: $list_elem_margin;
+  }
+  .author {
+    margin-right: $list_elem_margin;
+  }
+}

@@ -1,0 +1,24 @@
+.mange_container {
+  margin: 30px 190px;
+
+  .table {
+    display: flex;
+    flex-direction: column;
+
+    .header {
+
+    }
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .alias {
+
+  }
+  .url {
+
+  }
+}

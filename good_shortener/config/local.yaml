@@ -1,0 +1,10 @@
+env: "local"
+storage:
+  database_dialect: "postgres"
+  database_port: 5438
+  database_name: "postgres"
+  database_pass: "12345"
+http_server:
+  address: "localhost:8082"
+  timeout: 4s
+  idle_timeout: 60s
